@@ -1,0 +1,11 @@
+{
+  "name": "angular-multiline-ellipsis",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular": "1.4.2",
+    "angular-mocks": "1.4.2",
+    "jquery": "latest"
+  }
+}
