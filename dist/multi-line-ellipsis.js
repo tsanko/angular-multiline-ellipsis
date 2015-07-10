@@ -20,6 +20,9 @@ function EllipsisController() {
   init();
   ////////////////
   function init() {
+    if (!ellipsis.multiLineEllipsisLines) {
+      ellipsis.multiLineEllipsisLines = 3;
+    }
     ellipsis.viewHeight = ellipsis.multiLineEllipsisLines * ellipsis.viewLineHeight;
   }
   function viewMoreDescr() {
