@@ -25,7 +25,7 @@ function multiLineEllipsis() {
 	'use strict';
 
 	return {
-		templateUrl     : 'template/multi-line-ellipsis.tpl.html',
+		templateUrl     : 'template/multi-line-ellipsis.html',
 		transclude      : true,
 		replace         : true,
 		scope           : {
