@@ -11,7 +11,7 @@
  */
 
 angular
-	.module('TT.multilineEllipsis', [])
+	.module('TT.multiLineEllipsis', [])
 	.controller('EllipsisController', EllipsisController);
 
 /* @ngInject */

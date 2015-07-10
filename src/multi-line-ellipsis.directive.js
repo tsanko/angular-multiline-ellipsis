@@ -16,7 +16,7 @@
  * @example
  */
 angular
-	.module('TT.multilineEllipsis')
+	.module('TT.multiLineEllipsis')
 	.directive('multiLineEllipsis', multiLineEllipsis);
 
 /* @ngAnnotate */

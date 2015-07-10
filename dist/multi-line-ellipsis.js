@@ -8,7 +8,7 @@
  * @description
  * # EllipsisController
  */
-angular.module('TT.multilineEllipsis', []).controller('EllipsisController', EllipsisController);
+angular.module('TT.multiLineEllipsis', []).controller('EllipsisController', EllipsisController);
 /* @ngInject */
 function EllipsisController() {
   'use strict';
@@ -45,7 +45,7 @@ function EllipsisController() {
  *
  * @example
  */
-angular.module('TT.multilineEllipsis').directive('multiLineEllipsis', multiLineEllipsis);
+angular.module('TT.multiLineEllipsis').directive('multiLineEllipsis', multiLineEllipsis);
 /* @ngAnnotate */
 function multiLineEllipsis() {
   'use strict';
