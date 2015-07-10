@@ -5,7 +5,7 @@
   "authors": [
     "Tsanko Tsolov"
   ],
-  "description": "",
+  "description": "AngularJS directive for ellipsis multi line text using pure CSS",
   "main": [
     "dist/multi-line-ellipsis.js",
     "dist/multi-line-ellipsis.css"

@@ -1,7 +1,7 @@
 {
   "name": "angular-multiline-ellipsis",
   "version": "0.0.1",
-  "description": "angular-multiline-ellipsis",
+  "description": "AngularJS directive for ellipsis multi line text using pure CSS",
   "keywords": [
     "angular",
     "ellipsis",
