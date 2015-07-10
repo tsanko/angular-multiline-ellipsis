@@ -1,10 +1,14 @@
 # angular-multiline-ellipsis   <img src="https://travis-ci.org/tsanko/angular-multiline-ellipsis.svg?branch=master" >
-AngularJS directive for ellipsis multi line text
+AngularJS directive for ellipsis multi line text using pure CSS
 
 
 ## Getting Started
 
-Download the [production version][min] or the [development version][max].
+##<a name="install"></a> Install
+
+```sh
+bower install angular-multiline-ellipsis 
+```
 
 [min]: https://raw.github.com/tsanko/jquery-angular-multiline-ellipsis/master/dist/angular-angular-multiline-ellipsis.min.js
 [max]: https://raw.github.com/tsanko/jquery-angular-multiline-ellipsis/master/dist/angular-angular-multiline-ellipsis.js
@@ -27,3 +31,8 @@ _(Coming soon)_
    -- A. Einstein
 </div>
 ```
+
+## Credits
+
+Many thanks to Mobify http://www.mobify.com/blog/multiline-ellipsis-in-pure-css/
+for the clever CSS
