@@ -1,6 +1,29 @@
 {
   "name": "angular-multiline-ellipsis",
   "version": "0.0.1",
+  "homepage": "https://github.com/tsanko/angular-multiline-ellipsis.git",
+  "authors": [
+    "Tsanko Tsolov"
+  ],
+  "description": "",
+  "main": [
+    "dist/multiline-ellipsis.js",
+    "dist/multiline-ellipsis.css"
+  ],
+  "keywords": [
+    "angular",
+    "ellipsis",
+    "ellipses",
+    "multi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
   },
   "devDependencies": {

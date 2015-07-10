@@ -4,7 +4,7 @@
   "description": "angular-multiline-ellipsis",
   "keywords": [
     "angular",
-    "elllipsis",
+    "ellipsis",
     "ellipses",
     "multi line"
   ],
@@ -16,8 +16,8 @@
     "url": "https://github.com/tsanko"
   },
   "main": [
-    "dist/angular-multiline-ellipsis.js",
-    "dist/angular-multiline-ellipsis.css"
+    "dist/multiline-ellipsis.js",
+    "dist/multiline-ellipsis.css"
   ],
   "repository": {
     "type": "git",
