@@ -1,4 +1,4 @@
-# angular-multiline-ellipsis   https://travis-ci.org/tsanko/angular-multiline-ellipsis.svg?branch=master
+# angular-multiline-ellipsis   <img src="https://travis-ci.org/tsanko/angular-multiline-ellipsis.svg?branch=master" >
 AngularJS directive for ellipsis multi line text
 
 
