@@ -1,6 +1,6 @@
 /*global angular, $, module, expect, beforeEach, afterEach, toBe */
 
-describe('Module: angularMultilineEllipsis', function () {
+describe('Module: angularMultiLineEllipsis', function () {
 
 	'use strict';
 
@@ -11,7 +11,7 @@ describe('Module: angularMultilineEllipsis', function () {
 		text = 'Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former.';
 
 	// load the controller's module
-	beforeEach(module('TT.multilineEllipsis'));
+	beforeEach(module('TT.multiLineEllipsis'));
 
 	beforeEach(inject(function ($injector, $rootScope, _$compile_, _$timeout_) {
 		scope = $rootScope;
@@ -47,7 +47,9 @@ describe('Module: angularMultilineEllipsis', function () {
 
 	it('should implement "transclude"', function () {
 		var elm = compileDirective();
-		expect(elm.text()).toBe(text);
+		// width of the element is not restricted so
+		// actual element text will be -> text + ' ... Vew More'
+		expect(elm.text()).toContain(text);
 	});
 
 });
