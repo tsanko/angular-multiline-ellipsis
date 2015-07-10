@@ -60,6 +60,6 @@ angular.module('TT.multilineEllipsis', []).run([
   '$templateCache',
   function ($templateCache) {
     'use strict';
-    $templateCache.put('template/multi-line-ellipsis.html', '< div > Tsanko < / div > ');
+    $templateCache.put('template/multi-line-ellipsis.html', '<div class="ellipsis' + 'ng-class="{ \'-autoH\' : ellipsis.viewMore }"' + 'style="height : {{ ::ellipsis.viewHeight }}px; line-height : {{ ::ellipsis.viewLineHeight }}px;" >' + '<div class="before" style="height : {{ ::ellipsis.viewHeight }}px;" ></div >' + '<div class="body" >' + '<div ng-transclude ></div >' + '</div >' + '<div class="after"' + 'ng-click="ellipsis.viewMoreDescr()"' + 'ng-if="!ellipsis.viewMore" > ... View More' + '</div >' + '</div >');
   }
 ]);
