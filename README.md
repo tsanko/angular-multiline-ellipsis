@@ -1,5 +1,5 @@
 # angular-multiline-ellipsis
-
+AngularJS directive for ellipsis multi line text
 
 
 ## Getting Started
@@ -20,5 +20,10 @@ In your web page:
 _(Coming soon)_
 
 ## Examples
-_(Coming soon)_
 
+```html
+<div multi-line-ellipsis multi-line-ellipsis-lines="3" >
+   Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.
+   -- A. Einstein
+</div>
+```
