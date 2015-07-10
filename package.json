@@ -16,8 +16,8 @@
     "url": "https://github.com/tsanko"
   },
   "main": [
-    "dist/multiline-ellipsis.js",
-    "dist/multiline-ellipsis.css"
+    "dist/multi-line-ellipsis.js",
+    "dist/multi-line-ellipsis.css"
   ],
   "repository": {
     "type": "git",
