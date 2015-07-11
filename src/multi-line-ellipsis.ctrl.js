@@ -34,6 +34,10 @@ function EllipsisController() {
 	////////////////
 
 	function init() {
+		if (!ellipsis.multiLineEllipsis) {
+			return;
+		}
+
 		ellipsis.multiLineEllipsis = JSON.parse(ellipsis.multiLineEllipsis);
 
 		if (ellipsis.multiLineEllipsis.lines && ellipsis.multiLineEllipsis.height) {

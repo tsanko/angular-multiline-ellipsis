@@ -30,7 +30,7 @@ describe('Module: angularMultiLineEllipsis', function () {
 		'default': {
 			scope  : {},
 			element: '' +
-			'<div multi-line-ellipsis multi-line-ellipsis-lines="3">' +
+			'<div multi-line-ellipsis>' +
 				text +
 			'</div>'
 		}

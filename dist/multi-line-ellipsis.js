@@ -13,17 +13,29 @@ angular.module('TT.multiLineEllipsis', []).controller('EllipsisController', Elli
 function EllipsisController() {
   'use strict';
   var ellipsis = this;
+  // Defaults
   ellipsis.viewMore = false;
   ellipsis.viewHeight = 75;
   ellipsis.viewLineHeight = 25;
+  ellipsis.viewLines = 3;
+  // Functions
   ellipsis.viewMoreDescr = viewMoreDescr;
   init();
   ////////////////
   function init() {
-    if (!ellipsis.multiLineEllipsisLines) {
-      ellipsis.multiLineEllipsisLines = 3;
+    if (!ellipsis.multiLineEllipsis) {
+      return;
     }
-    ellipsis.viewHeight = ellipsis.multiLineEllipsisLines * ellipsis.viewLineHeight;
+    ellipsis.multiLineEllipsis = JSON.parse(ellipsis.multiLineEllipsis);
+    if (ellipsis.multiLineEllipsis.lines && ellipsis.multiLineEllipsis.height) {
+      ellipsis.viewLines = ellipsis.multiLineEllipsis.lines;
+      ellipsis.viewHeight = ellipsis.multiLineEllipsis.height;
+      ellipsis.viewLineHeight = Math.ceil(ellipsis.viewHeight / ellipsis.viewLines);
+    } else if (ellipsis.multiLineEllipsis.lines && ellipsis.multiLineEllipsis.lineHeight) {
+      ellipsis.viewLines = ellipsis.multiLineEllipsis.lines;
+      ellipsis.viewLineHeight = ellipsis.multiLineEllipsis.lineHeight;
+      ellipsis.viewHeight = Math.ceil(ellipsis.viewLineHeight * ellipsis.viewLines);
+    }
   }
   function viewMoreDescr() {
     ellipsis.viewMore = true;
