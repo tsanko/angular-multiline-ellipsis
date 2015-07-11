@@ -4,7 +4,7 @@ AngularJS directive for ellipsis multi line text using pure CSS
 
 ## Getting Started
 
-##<a name="install"></a> Install
+## Install
 
 ```sh
 bower install angular-multiline-ellipsis 
@@ -26,13 +26,18 @@ angular.module('rexAdminApp', [
 ])
 ```
 
-## Documentation
-_(Coming soon)_
+## Params
+
+lines		- Required. How many lines to be visible.
+height		- Optional. Height of the element.
+lineHeight	- Optional. Text line height.
+
+At least one of the OPTIONAL params need accompany 'lines'.
 
 ## Examples
 
 ```html
-<div multi-line-ellipsis multi-line-ellipsis-lines="3" >
+<div multi-line-ellipsis='{"height" : "75", "lineHeight" : "25", "lines" : "3" }' >
    Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.
    -- A. Einstein
 </div>
