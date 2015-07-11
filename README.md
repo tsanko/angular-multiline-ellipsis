@@ -28,13 +28,13 @@ angular.module('rexAdminApp', [
 
 ## Params
 
-lines		- Required. How many lines to be visible.
+lines		- Optional. How many lines to be visible. Defaults to 3.
 
-height		- Optional. Height of the element.
+height		- Optional. Height of the element. Defaults to 75(px).
 
-lineHeight	- Optional. Text line height.
+lineHeight	- Optional. Text line height. Defaults to 25(px).
 
-At least one of the OPTIONAL params need to accompany 'lines'.
+If 'lines' is set at least one of the other OPTIONAL params need to accompany it.
 
 ## Examples
 
