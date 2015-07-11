@@ -34,7 +34,7 @@ height		- Optional. Height of the element.
 
 lineHeight	- Optional. Text line height.
 
-At least one of the OPTIONAL params need accompany 'lines'.
+At least one of the OPTIONAL params need to accompany 'lines'.
 
 ## Examples
 
