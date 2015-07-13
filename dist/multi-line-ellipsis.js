@@ -70,7 +70,10 @@ function multiLineEllipsis() {
     controllerAs: 'ellipsis',
     bindToController: true
   };
-}angular.module('TT.multiLineEllipsis').run([
+}/**
+ * @ngdoc template
+ */
+angular.module('TT.multiLineEllipsis').run([
   '$templateCache',
   function ($templateCache) {
     'use strict';

@@ -1,3 +1,6 @@
+/**
+ * @ngdoc template
+ */
 angular
 	.module('TT.multiLineEllipsis')
 	.run(['$templateCache', function ($templateCache) {
