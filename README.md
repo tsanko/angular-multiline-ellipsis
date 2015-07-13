@@ -40,7 +40,9 @@ If 'lines' is set at least one of the other OPTIONAL params need to accompany it
 
 ```html
 <div multi-line-ellipsis='{"height" : "75", "lineHeight" : "25", "lines" : "3" }' >
-   Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.
+   Only two things are infinite, the universe and human stupidity, 
+   and I'm not sure about the former.
+   
    -- A. Einstein
 </div>
 ```
