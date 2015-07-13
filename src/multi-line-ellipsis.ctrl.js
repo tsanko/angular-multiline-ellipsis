@@ -5,7 +5,7 @@
 
 /**
  * @ngdoc controller
- * @name rexWebApp.controllers:EllipsisController
+ * @name TT.controllers:EllipsisController
  * @description
  * # EllipsisController
  */

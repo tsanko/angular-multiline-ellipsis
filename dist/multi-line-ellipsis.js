@@ -4,7 +4,7 @@
  */
 /**
  * @ngdoc controller
- * @name rexWebApp.controllers:EllipsisController
+ * @name TT.controllers:EllipsisController
  * @description
  * # EllipsisController
  */
@@ -42,7 +42,7 @@ function EllipsisController() {
   }
 }/**
  * @ngdoc directive
- * @name rexWebApp.directive:multiLineEllipsis
+ * @name TT.directive:multiLineEllipsis
  * @restrict A
  * @scope
  *

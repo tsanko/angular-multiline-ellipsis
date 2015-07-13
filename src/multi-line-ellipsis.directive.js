@@ -1,6 +1,6 @@
 /**
  * @ngdoc directive
- * @name rexWebApp.directive:multiLineEllipsis
+ * @name TT.directive:multiLineEllipsis
  * @restrict A
  * @scope
  *
