@@ -12,14 +12,14 @@
   box-sizing: content-box;
   float: right;
   position: relative;
-  top: -25px;
   left: 100%;
   width: 14em;
   margin-left: -14em;
   padding-right: 5px;
   text-align: right;
-  font-size: 14px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: bold;
   cursor: pointer;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(white), color-stop(40%, white));
   background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 40%, white);
@@ -31,4 +31,6 @@
   float: right;
   width: 100%;
   margin-left: -5px;
+  font-size: inherit;
+  font-family: inherit;
 }
