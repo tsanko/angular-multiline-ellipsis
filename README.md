@@ -28,17 +28,21 @@ angular.module('rexAdminApp', [
 
 ## Params
 
-lines		- Required. How many lines to be visible.
-height		- Optional. Height of the element.
-lineHeight	- Optional. Text line height.
+lines		- Optional. How many lines to be visible. Defaults to 3.
 
-At least one of the OPTIONAL params need accompany 'lines'.
+height		- Optional. Height of the element. Defaults to 75(px).
+
+lineHeight	- Optional. Text line height. Defaults to 25(px).
+
+If 'lines' is set at least one of the other OPTIONAL params need to accompany it.
 
 ## Examples
 
 ```html
 <div multi-line-ellipsis='{"height" : "75", "lineHeight" : "25", "lines" : "3" }' >
-   Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.
+   Only two things are infinite, the universe and human stupidity, 
+   and I'm not sure about the former.
+   
    -- A. Einstein
 </div>
 ```
