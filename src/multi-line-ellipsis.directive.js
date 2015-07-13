@@ -29,7 +29,7 @@ function multiLineEllipsis() {
 		transclude      : true,
 		replace         : true,
 		scope           : {
-			multiLineEllipsisLines: '@'
+			multiLineEllipsis: '@'
 		},
 		controller      : 'EllipsisController',
 		controllerAs    : 'ellipsis',

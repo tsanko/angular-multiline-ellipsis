@@ -65,7 +65,7 @@ function multiLineEllipsis() {
     templateUrl: 'template/multi-line-ellipsis.html',
     transclude: true,
     replace: true,
-    scope: { multiLineEllipsisLines: '@' },
+    scope: { multiLineEllipsis: '@' },
     controller: 'EllipsisController',
     controllerAs: 'ellipsis',
     bindToController: true
