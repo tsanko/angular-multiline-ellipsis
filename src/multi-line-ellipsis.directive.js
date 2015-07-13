@@ -8,8 +8,10 @@
  * Directive to apply ellipsis to a multi line text.
  *
  * @usage
- * <div multi-line-ellipsis multi-line-ellipsis-lines="3" >
- *     Only two things are infinite, the universe and human stupidity, and I'm not sure about the former.
+ * <div multi-line-ellipsis='{"height" : "75", "lineHeight" : "25", "lines" : "3" }' >
+ *     Only two things are infinite, the universe and human stupidity,
+ *     and I'm not sure about the former.
+ *
  *     -- A. Einstein
  * </div>
  *
