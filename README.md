@@ -10,17 +10,20 @@ AngularJS directive for ellipsis multi line text using pure CSS
 bower install angular-multiline-ellipsis 
 ```
 
-In your web page:
+After running Grunt you should see following insertions in your index page:
 
-```html
-<script src="angular.js"></script>
-<script src="dist/angular-multiline-ellipsis.min.js"></script>
-```
+```html 
+in <!-- bower:js --> section
+<script src="../bower_components/angular-multiline-ellipsis/dist/angular-multiline-ellipsis.min.js"></script>
+
+```html 
+in <!-- bower:css --> section
+<link rel="stylesheet" href="/../bower_components/angular-multiline-ellipsis/dist/angular-multiline-ellipsis.min.css" />
 
 In your app.js 
 
 ```html
-angular.module('rexAdminApp', [
+angular.module('myApp', [
 	...
 	'TT.multiLineEllipsis'
 ])
