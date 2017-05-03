@@ -14,11 +14,11 @@ After running Grunt you should see following insertions in your index page:
 
 ```html 
 in <!-- bower:js --> section
-<script src="../bower_components/angular-multiline-ellipsis/dist/angular-multiline-ellipsis.min.js"></script>
+<script src="../bower_components/angular-multiline-ellipsis/dist/multiline-ellipsis.min.js"></script>
 ```
 ```html 
 in <!-- bower:css --> section
-<link rel="stylesheet" href="/../bower_components/angular-multiline-ellipsis/dist/angular-multiline-ellipsis.min.css" />
+<link rel="stylesheet" href="/../bower_components/angular-multiline-ellipsis/dist/multiline-ellipsis.min.css" />
 ```
 
 Add the reference in your app.js 
